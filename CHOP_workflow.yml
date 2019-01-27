@@ -1,0 +1,21 @@
+cram:
+  class: File
+  path: test.cram
+
+name_of_file_to_output: cwl_workflow_test.fastq
+
+name_of_alignment: cwl_workflow_realign.sam
+
+thread_cram2fastq: 2
+
+thread_bwa: 2
+
+ref: 
+  class: File
+  path: /pghbio/dbmi/Genomics_Core/rmh55/RefSeq/GRCh38_v27_CTAT_lib_Feb092018/ctat_genome_lib_build_dir/ref_genome.fa 
+
+name_of_new_cram: new_cram.cram
+
+ref_final: 
+  class: File
+  path: /pghbio/dbmi/Genomics_Core/rmh55/RefSeq/GRCh38_v27_CTAT_lib_Feb092018/ctat_genome_lib_build_dir/ref_genome.fa

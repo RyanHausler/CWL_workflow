@@ -25,10 +25,10 @@ outputs:
   fastq:
     type: File[]
     outputSource: cram2fastq/output
-  realign:
+  realigned_sam:
     type: File
     outputSource: bwa-mem/output
-  convert2cram:
+  realigned_cram:
     type: File[]
     outputSource: sam2cram/output
 
